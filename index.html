@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="cv, html, course, css, tags" />
+    <meta
+      name="description"
+      content="frontend-developer basic course, making a cv"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Kirill's CV</title>
+  </head>
+  <body>
+    <img src="avatar.jpg" alt="My Avatar" width="150" />
+    <h1>Kirill Shakin</h1>
+    <p>
+      <strong><em>#1</em></strong> frontend-developer
+    </p>
+    <h3>Pro Skills</h3>
+    <p>
+      Full stack of necessary techs: <strong>React, JS, TS, HTML/CSS5</strong>
+    </p>
+    <div class="socials">
+      <h3>Find me here</h3>
+      <ul class="socials_list">
+        <li class="socials_item">
+          <a href="/" class="socials_link" target="_blank">Instagram</a>
+        </li>
+        <li class="socials_item">
+          <a href="/" class="socials_link" target="_blank">Telegram</a>
+        </li>
+        <li class="socials_item">
+          <a href="https://vk.com/kireksha" class="socials_link" target="_blank"
+            >VKontakte</a
+          >
+        </li>
+      </ul>
+    </div>
+    <h3>My hobbies</h3>
+    <ul class="hobby-list">
+      <li class="hobby-list_item">Lorem ipsum dulor sit.</li>
+      <li class="hobby-list_item">Lorem, ipsum.</li>
+      <li class="hobby-list_item">Lorem ipsum dulor sit amet.</li>
+    </ul>
+
+    <section class="exprience">
+      <h3 class="experience_headline">My exprience</h3>
+      <table>
+        <thead>
+          <th>Company Name</th>
+          <th>Position</th>
+          <th>Period</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nice company</td>
+            <td>Lower position</td>
+            <td>2015-2016</td>
+          </tr>
+          <tr>
+            <td>Better company</td>
+            <td>Middle position</td>
+            <td>2016-2020</td>
+          </tr>
+          <tr>
+            <td>Strong company</td>
+            <td>Middle position</td>
+            <td>2020-2024</td>
+          </tr>
+          <tr>
+            <td>Future company</td>
+            <td>Head of the Heads</td>
+            <td>2024-2030</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <section class="form-section">
+        <h3 class="form_header">Contact me</h3>
+        <form class="form">
+          <div class="form_name-container">
+            <label for="name"
+            >Your name:
+            <input id="name" type="text" placeholder="John" />
+          </label>
+          </div>
+          <div class="form_email-container">
+            <label for="email"
+            >Your email:
+            <input type="email" id="email" placeholder="123@gmail.com"/>
+          </label>
+          </div>
+          <div class="form_text-container">
+            <label for="message"
+            >Leave your message:
+            <br>
+            <textarea id="message" cols="25" rows="5" placeholder="Nice to meet you!"></textarea>
+          </label>
+          </div>
+          <button type="submit" disabled>Send message</button>
+        </form>
+      </section>
+    </section>
+  </body>
+</html>
