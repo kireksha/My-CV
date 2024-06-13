@@ -14,95 +14,114 @@
     <title>Kirill's CV</title>
   </head>
   <body>
-    <img src="avatar.jpg" alt="My Avatar" width="150" />
-    <h1>Kirill Shakin</h1>
-    <p>
-      <strong><em>#1</em></strong> frontend-developer
-    </p>
-    <h3>Pro Skills</h3>
-    <p>
-      Full stack of necessary techs: <strong>React, JS, TS, HTML/CSS5</strong>
-    </p>
-    <div class="socials">
-      <h3>Find me here</h3>
-      <ul class="socials_list">
-        <li class="socials_item">
-          <a href="/" class="socials_link" target="_blank">Instagram</a>
-        </li>
-        <li class="socials_item">
-          <a href="/" class="socials_link" target="_blank">Telegram</a>
-        </li>
-        <li class="socials_item">
-          <a href="https://vk.com/kireksha" class="socials_link" target="_blank"
-            >VKontakte</a
-          >
-        </li>
-      </ul>
-    </div>
-    <h3>My hobbies</h3>
-    <ul class="hobby-list">
-      <li class="hobby-list_item">Lorem ipsum dulor sit.</li>
-      <li class="hobby-list_item">Lorem, ipsum.</li>
-      <li class="hobby-list_item">Lorem ipsum dulor sit amet.</li>
-    </ul>
+    <div class="container">
+      <header class="header">
+        <img src="avatar.jpg" alt="My Avatar" width="150" class="avatar" />
+        <div class="header_right">
+          <h1>Kirill Shakin</h1>
+          <p class="header_logo description">
+            <strong><em>#1</em></strong> frontend-developer
+          </p>
+          <h3 class="header_skills description">Pro Skills</h3>
+          <p class="description">
+            Full stack of necessary techs:
+            <strong>React, JS, TS, HTML/CSS5</strong>
+          </p>
+          <div class="socials">
+            <h3 class="socials-header">Find me here</h3>
+            <ul class="socials_list">
+              <li class="socials_item">
+                <a href="#" class="socials_link" target="_blank">Instagram*</a>
+              </li>
+              <li class="socials_item">
+                <a href="#" class="socials_link" target="_blank">Telegram</a>
+              </li>
+              <li class="socials_item">
+                <a
+                  href="https://vk.com/kireksha"
+                  class="socials_link"
+                  target="_blank"
+                  >VKontakte</a
+                >
+              </li>
+            </ul>
+            <hr>
+            <span class="socials_disclamer">* организация, деятельность которой запрещена на территории Российской Федерации.</span>
+          </div>
+        </div>
+      </header>
+      <section class="card hobbies-card">
+        <h3>My hobbies</h3>
+        <ul class="hobby-list">
+          <li class="hobby-list_item">Lorem ipsum dulor sit.</li>
+          <li class="hobby-list_item">Lorem, ipsum.</li>
+          <li class="hobby-list_item">Lorem ipsum dulor sit amet.</li>
+        </ul>
+      </section>
 
-    <section class="exprience">
-      <h3 class="experience_headline">My exprience</h3>
-      <table>
-        <thead>
-          <th>Company Name</th>
-          <th>Position</th>
-          <th>Period</th>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Nice company</td>
-            <td>Lower position</td>
-            <td>2015-2016</td>
-          </tr>
-          <tr>
-            <td>Better company</td>
-            <td>Middle position</td>
-            <td>2016-2020</td>
-          </tr>
-          <tr>
-            <td>Strong company</td>
-            <td>Middle position</td>
-            <td>2020-2024</td>
-          </tr>
-          <tr>
-            <td>Future company</td>
-            <td>Head of the Heads</td>
-            <td>2024-2030</td>
-          </tr>
-        </tbody>
-      </table>
+      <section class="card experience">
+        <h3 class="experience_headline">My experience</h3>
+        <table>
+          <thead>
+            <th>Company Name</th>
+            <th>Position</th>
+            <th>Period</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nice company</td>
+              <td>Lower position</td>
+              <td>2015-2016</td>
+            </tr>
+            <tr>
+              <td>Better company</td>
+              <td>Middle position</td>
+              <td>2016-2020</td>
+            </tr>
+            <tr>
+              <td>Strong company</td>
+              <td>Middle position</td>
+              <td>2020-2024</td>
+            </tr>
+            <tr>
+              <td>Future company</td>
+              <td>Head of the Heads</td>
+              <td>2024-2030</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-      <section class="form-section">
+      <section class="card form-section">
         <h3 class="form_header">Contact me</h3>
         <form class="form">
           <div class="form_name-container">
             <label for="name"
-            >Your name:
-            <input id="name" type="text" placeholder="John" />
-          </label>
+              >Your name:
+              <input id="name" type="text" placeholder="John" />
+            </label>
           </div>
           <div class="form_email-container">
             <label for="email"
-            >Your email:
-            <input type="email" id="email" placeholder="123@gmail.com"/>
-          </label>
+              >Your email:
+              <input type="email" id="email" placeholder="123@gmail.com" />
+            </label>
           </div>
           <div class="form_text-container">
             <label for="message"
-            >Leave your message:
-            <br>
-            <textarea id="message" cols="25" rows="5" placeholder="Nice to meet you!"></textarea>
-          </label>
+              >Leave your message:
+              <br />
+              <textarea
+                id="message"
+                cols="25"
+                rows="5"
+                placeholder="Nice to meet you!"
+              ></textarea>
+            </label>
           </div>
-          <button type="submit" disabled>Send message</button>
+          <button class="btn" type="submit" disabled>Send message</button>
         </form>
       </section>
-    </section>
+    </div>
   </body>
 </html>

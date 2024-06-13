@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font: normal 16px Roboto, sans-serif;
+    background-color: #f1f1f1;
+    color: #0f141e;
+}
+
+.container {
+    margin: auto;
+    max-width: 750px;
+    padding-top: 20px;
+}
+
+a {
+    color: #333;
+    transition: all .2s;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.card {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1em;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.avatar {
+    border-radius: 6px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+    display: block;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.description,
+.socials_link,
+.socials_disclamer {
+    color: #747277;
+}
+
+.socials_link:hover {
+    color: #333;
+}
+
+.socials_link:active {
+    color: #000;
+    font-size: 18px;
+}
+
+.socials_disclamer {
+    font-size: 12px;
+}
+
+hr {
+    margin: 0;
+}
+
+.hobbies-card {
+    background-color: #E4E8FF;
+    border: none;
+}
+
+table {
+    width: 100%;
+}
+
+table td,
+table tr {
+    text-align: left;
+}
+
+table td,
+table th {
+    padding-bottom: 10px;
+}
+
+table td:hover {
+    background-color: #ddd;
+}
+
+table tr:nth-child(2n) {
+    background-color: #ddd;
+}
+
+.socials_list {
+    display: flex;
+    margin-right: 5px;
+}
+
+.socials_link {
+    padding-right: 5px;
+    border-right: 1px solid black;
+}
+
+.socials_item:last-child .socials_link {
+    border-right: none;
+}
+
+.btn {
+    background-color: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.btn:hover {
+    opacity: .8;
+    color: #000;
+    background-color: lightblue;
+}
+
+@media(max-width: 650px) {
+    body {
+        font-size: 14px;
+    }
+}
